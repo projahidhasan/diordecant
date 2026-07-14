@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
                           `💵 *মোট বিল:* ৳${totalBill} (শিপিং চার্জসহ)`;
 
       const encodedMsg = encodeURIComponent(whatsappMsg);
-      const whatsappUrl = `https://wa.me/8801831160939?text=${encodedMsg}`;
+      const whatsappUrl = `https://api.whatsapp.com/send?phone=8801831160939&text=${encodedMsg}`;
 
       // Link to WhatsApp button in success modal
       const btnWhatsAppSummary = document.getElementById('btnWhatsAppSummary');
