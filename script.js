@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Update floating bottom bar price description dynamically
     if (stickyMainText) {
-      stickyMainText.textContent = `Dior Sauvage Decant (${currentSize}ml) • ৳${currentProductPrice}`;
+      stickyMainText.textContent = `Dior Sauvage Decant • ৳${currentProductPrice}`;
     }
   }
 
